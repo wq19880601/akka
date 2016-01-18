@@ -3,6 +3,5 @@
 Client-Side WebSocket Support
 =============================
 
-Not yet implemented see 17275_.
-
-.. _17275: https://github.com/akka/akka/issues/17275
+Client side websocket support is available through ``Http().singleWebsocketRequest()`` and
+``Http().websocketClientFlow()``
